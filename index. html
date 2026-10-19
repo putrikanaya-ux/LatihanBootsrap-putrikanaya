@@ -1,106 +1,183 @@
+
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">NAYA</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NAYA - Website Pribadi</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">NAYA</a>
+
+      <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse" data-bs-target="#navbarNaya"
+        aria-controls="navbarNaya" aria-expanded="false"
+        aria-label="Buka navigasi">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNaya">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#profil">Profil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#galeri">Galeri</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CAROUSEL 3 FOTO -->
+  <div id="carouselNaya" class="carousel slide"
+    data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselNaya"
+        data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Foto 1"></button>
+      <button type="button" data-bs-target="#carouselNaya"
+        data-bs-slide-to="1" aria-label="Foto 2"></button>
+      <button type="button" data-bs-target="#carouselNaya"
+        data-bs-slide-to="2" aria-label="Foto 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/foto1.jpeg" class="d-block w-100"
+          alt="Foto pertama"
+          style="height: 400px; object-fit: cover;">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/foto2.jpeg" class="d-block w-100"
+          alt="Foto kedua"
+          style="height: 400px; object-fit: cover;">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/foto3.jpeg" class="d-block w-100"
+          alt="Foto ketiga"
+          style="height: 400px; object-fit: cover;">
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button"
+      data-bs-target="#carouselNaya" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"
+        aria-hidden="true"></span>
+      <span class="visually-hidden">Sebelumnya</span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#profil">Profil</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#galeri">Galeri</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#menu">Menu</a>
-  </li>
-</ul>
-    </div>
+
+    <button class="carousel-control-next" type="button"
+      data-bs-target="#carouselNaya" data-bs-slide="next">
+      <span class="carousel-control-next-icon"
+        aria-hidden="true"></span>
+      <span class="visually-hidden">Berikutnya</span>
+    </button>
   </div>
-</nav>
 
+  <!-- PROFIL -->
+  <section id="profil" class="container text-center my-5">
+    <h1>Selamat Datang di Website NAYA</h1>
+    <p>Website pribadi saya yang dibuat menggunakan Bootstrap 5.3.</p>
+  </section>
 
-<main id="menu" class="container my-5">
-  <h2 class="text-center mb-4">Galeri NAYA</h2>
+  <!-- GALERI DAN 6 CARD -->
+  <main id="menu" class="container my-5">
+    <h2 id="galeri" class="text-center mb-4">Galeri NAYA</h2>
 
-  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
 
-    <div class="col">
-      <div class="card h-100">
-        <img src="img/foto1.jpeg" class="card-img-top" alt="Foto pertama">
-        <div class="card-body">
-          <h5 class="card-title">Foto Pertama</h5>
-          <p class="card-text">Selamat datang di galeri NAYA.</p>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/foto1.jpeg" class="card-img-top"
+            alt="Foto pertama">
+          <div class="card-body">
+            <h5 class="card-title">Foto Pertama</h5>
+            <p class="card-text">Selamat datang di galeri NAYA.</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="col">
-      <div class="card h-100">
-        <img src="img/foto2.jpeg" class="card-img-top" alt="Foto kedua">
-        <div class="card-body">
-          <h5 class="card-title">Foto Kedua</h5>
-          <p class="card-text">Koleksi foto pilihan NAYA.</p>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/foto2.jpeg" class="card-img-top"
+            alt="Foto kedua">
+          <div class="card-body">
+            <h5 class="card-title">Foto Kedua</h5>
+            <p class="card-text">Koleksi foto pilihan NAYA.</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="col">
-      <div class="card h-100">
-        <img src="img/foto3.jpeg" class="card-img-top" alt="Foto ketiga">
-        <div class="card-body">
-          <h5 class="card-title">Foto Ketiga</h5>
-          <p class="card-text">Bagian dari cerita NAYA.</p>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/foto3.jpeg" class="card-img-top"
+            alt="Foto ketiga">
+          <div class="card-body">
+            <h5 class="card-title">Foto Ketiga</h5>
+            <p class="card-text">Bagian dari cerita NAYA.</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="col">
-      <div class="card h-100">
-        <img src="img/foto1.jpeg" class="card-img-top" alt="Foto keempat">
-        <div class="card-body">
-          <h5 class="card-title">Kenangan</h5>
-          <p class="card-text">Momen yang berkesan.</p>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/foto1.jpeg" class="card-img-top"
+            alt="Foto keempat">
+          <div class="card-body">
+            <h5 class="card-title">Kenangan</h5>
+            <p class="card-text">Momen yang berkesan.</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="col">
-      <div class="card h-100">
-        <img src="img/foto2.jpeg" class="card-img-top" alt="Foto kelima">
-        <div class="card-body">
-          <h5 class="card-title">Inspirasi</h5>
-          <p class="card-text">Temukan inspirasi di sini.</p>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/foto2.jpeg" class="card-img-top"
+            alt="Foto kelima">
+          <div class="card-body">
+            <h5 class="card-title">Inspirasi</h5>
+            <p class="card-text">Temukan inspirasi di sini.</p>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="col">
-      <div class="card h-100">
-        <img src="img/foto3.jpeg" class="card-img-top" alt="Foto keenam">
-        <div class="card-body">
-          <h5 class="card-title">Tentang NAYA</h5>
-          <p class="card-text">Terima kasih sudah berkunjung.</p>
+      <div class="col">
+        <div class="card h-100">
+          <img src="img/foto3.jpeg" class="card-img-top"
+            alt="Foto keenam">
+          <div class="card-body">
+            <h5 class="card-title">Tentang NAYA</h5>
+            <p class="card-text">Terima kasih sudah berkunjung.</p>
+          </div>
         </div>
       </div>
+
     </div>
+  </main>
 
-  </div>
-</main>
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2026 NAYA. Dibuat dengan Bootstrap 5.3.</p>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
+
