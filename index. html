@@ -35,37 +35,75 @@
 </nav>
 
 <header>
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/foto1.jpeg"
-     class="d-block w-100"
-     alt="Foto pertama"
-     style="height: 400px; object-fit: cover;">
+
+<main id="menu" class="container my-5">
+  <h2 class="text-center mb-4">Galeri NAYA</h2>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/foto1.jpeg" class="card-img-top" alt="Foto pertama">
+        <div class="card-body">
+          <h5 class="card-title">Foto Pertama</h5>
+          <p class="card-text">Selamat datang di galeri NAYA.</p>
+        </div>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="img/foto2.jpeg"
-     class="d-block w-100"
-     alt="Foto kedua"
-     style="height: 400px; object-fit: cover;">
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/foto2.jpeg" class="card-img-top" alt="Foto kedua">
+        <div class="card-body">
+          <h5 class="card-title">Foto Kedua</h5>
+          <p class="card-text">Koleksi foto pilihan NAYA.</p>
+        </div>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="img/foto3.jpeg"
-     class="d-block w-100"
-     alt="Foto ketiga"
-     style="height: 400px; object-fit: cover;">
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/foto3.jpeg" class="card-img-top" alt="Foto ketiga">
+        <div class="card-body">
+          <h5 class="card-title">Foto Ketiga</h5>
+          <p class="card-text">Bagian dari cerita NAYA.</p>
+        </div>
+      </div>
     </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/foto1.jpeg" class="card-img-top" alt="Foto keempat">
+        <div class="card-body">
+          <h5 class="card-title">Kenangan</h5>
+          <p class="card-text">Momen yang berkesan.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/foto2.jpeg" class="card-img-top" alt="Foto kelima">
+        <div class="card-body">
+          <h5 class="card-title">Inspirasi</h5>
+          <p class="card-text">Temukan inspirasi di sini.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100">
+        <img src="img/foto3.jpeg" class="card-img-top" alt="Foto keenam">
+        <div class="card-body">
+          <h5 class="card-title">Tentang NAYA</h5>
+          <p class="card-text">Terima kasih sudah berkunjung.</p>
+        </div>
+      </div>
+    </div>
+
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-  </header>
+</main>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
