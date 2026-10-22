@@ -38,6 +38,27 @@
     </div>
 </nav>
 
+<header id="home" class="bg-dark text-light text-center py-5">
+    <div class="container">
+        <h1 class="display-4 fw-bold text-warning">
+            WELCOME TO NAYA'S WEBSITE
+        </h1>
+
+        <p class="lead mt-3">
+            Exploring Creativity Through Technology
+        </p>
+
+        <p>
+            Website Pribadi Siswa Rekayasa Perangkat Lunak
+        </p>
+
+        <a href="#profil" class="btn btn-warning mt-2">
+            Kenali Saya
+        </a>
+    </div>
+</header>
+
+
     <h1>WELCOME TO NAYA'S WEBSITE</h1>
     <p>Website pribadi siswa Rekayasa Perangkat Lunak.</p>
 
