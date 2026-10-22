@@ -126,6 +126,37 @@
     </div>
 </section>
 
+<section id="kegiatan" class="container py-5">
+    <h2 class="text-warning text-center fw-bold mb-4">
+        My RPL Projects
+    </h2>
+
+    <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+            <div class="card bg-dark text-light border-warning h-100">
+                <img src="img/rpl1.jpg"
+                    class="card-img-top"
+                    alt="Web Development">
+
+                <div class="card-body">
+                    <h5 class="card-title text-warning">
+                        Web Development
+                    </h5>
+
+                    <p class="card-text">
+                        Belajar HTML dan CSS untuk membuat
+                        website yang menarik dan responsif.
+                    </p>
+
+                    <a href="#profil" class="btn btn-warning">
+                        Pelajari
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
     <h1>WELCOME TO NAYA'S WEBSITE</h1>
     <p>Website pribadi siswa Rekayasa Perangkat Lunak.</p>
