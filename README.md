@@ -1,1 +1,0 @@
-# LatihanBootsrap-putrikanaya
