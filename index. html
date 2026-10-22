@@ -155,6 +155,23 @@
             </div>
         </div>
 
+<div class="col-md-6 col-lg-4">
+    <div class="card bg-dark text-light border-warning h-100">
+        <img src="img-rpl2.jpg"
+             class="card-img-top"
+             alt="JavaScript">
+
+        <div class="card-body">
+            <h5 class="card-title text-warning">JavaScript</h5>
+            <p class="card-text">
+                Belajar JavaScript untuk membuat website lebih interaktif.
+            </p>
+            <a href="#profil" class="btn btn-warning">Pelajari</a>
+        </div>
+    </div>
+</div>
+
+
         <div class="col-md-6 col-lg-4">
             <div class="card bg-dark text-light border-warning h-100">
                 <img src="img-rpl3.jpg"
