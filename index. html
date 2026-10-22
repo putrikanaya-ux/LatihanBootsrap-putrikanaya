@@ -140,7 +140,7 @@
     <div class="row g-4">
         <div class="col-md-6 col-lg-4">
             <div class="card bg-dark text-light border-warning h-100">
-                <img src="img-rpl1.jpg.jpg"
+                <img src="img/img-rpl1.jpg.jpg"
                     class="card-img-top"
                     alt="Web Development">
 
@@ -163,7 +163,7 @@
 
 <div class="col-md-6 col-lg-4">
     <div class="card bg-dark text-light border-warning h-100">
-        <img src="img-rpl2.jpg"
+        <img src="img/img-rpl2.jpg"
              class="card-img-top"
              alt="JavaScript">
 
@@ -180,7 +180,7 @@
 
         <div class="col-md-6 col-lg-4">
             <div class="card bg-dark text-light border-warning h-100">
-                <img src="img-rpl3.jpg"
+                <img src="img/img-rpl3.jpg"
                     class="card-img-top"
                     alt="UI UX Design">
 
@@ -202,7 +202,7 @@
 
         <div class="col-md-6 col-lg-4">
             <div class="card bg-dark text-light border-warning h-100">
-                <img src="img-rpl4.jpg"
+                <img src="img/img-rpl4.jpg"
                     class="card-img-top"
                     alt="Database">
 
@@ -224,7 +224,7 @@
 
         <div class="col-md-6 col-lg-4">
             <div class="card bg-dark text-light border-warning h-100">
-                <img src="img/rpl5.jpg"
+                <img src="img/img-rpl5.jpg"
                     class="card-img-top"
                     alt="Web Design">
 
@@ -246,7 +246,7 @@
 
         <div class="col-md-6 col-lg-4">
             <div class="card bg-dark text-light border-warning h-100">
-                <img src="img/rpl6.jpg"
+                <img src="img/img-rpl6.jpg"
                     class="card-img-top"
                     alt="Programming">
 
