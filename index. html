@@ -154,7 +154,31 @@
                 </div>
             </div>
         </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="card bg-dark text-light border-warning h-100">
+                <img src="img/rpl3.jpg"
+                    class="card-img-top"
+                    alt="UI UX Design">
+
+                <div class="card-body">
+                    <h5 class="card-title text-warning">
+                        UI/UX Design
+                    </h5>
+
+                    <p class="card-text">
+                        Belajar merancang tampilan website yang menarik dan mudah digunakan.
+                    </p>
+
+                    <a href="#profil" class="btn btn-warning">
+                        Pelajari
+                    </a>
+                </div>
+            </div>
+        </div>
+
     </div>
+
 
 </section>
 
