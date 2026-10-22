@@ -83,6 +83,49 @@
     </div>
 </section>
 
+<section id="galeri" class="container py-5">
+    <h2 class="text-warning text-center fw-bold mb-4">
+        My Photo Gallery
+    </h2>
+
+    <div id="carouselNaya" class="carousel slide"
+        data-bs-ride="carousel">
+
+        <div class="carousel-inner rounded">
+
+            <div class="carousel-item active">
+                <img src="img/foto1.jpeg"
+                    class="d-block w-100"
+                    alt="Foto Naya pertama">
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/foto2.jpeg"
+                    class="d-block w-100"
+                    alt="Foto Naya kedua">
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/foto3.jpeg"
+                    class="d-block w-100"
+                    alt="Foto Naya ketiga">
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button"
+            data-bs-target="#carouselNaya" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button"
+            data-bs-target="#carouselNaya" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+
+    </div>
+</section>
+
 
     <h1>WELCOME TO NAYA'S WEBSITE</h1>
     <p>Website pribadi siswa Rekayasa Perangkat Lunak.</p>
