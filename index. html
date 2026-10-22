@@ -221,6 +221,28 @@
             </div>
         </div>
 
+        <div class="col-md-6 col-lg-4">
+            <div class="card bg-dark text-light border-warning h-100">
+                <img src="img/rpl6.jpg"
+                    class="card-img-top"
+                    alt="Programming">
+
+                <div class="card-body">
+                    <h5 class="card-title text-warning">
+                        Programming
+                    </h5>
+
+                    <p class="card-text">
+                        Belajar logika pemrograman untuk membuat aplikasi yang bermanfaat.
+                    </p>
+
+                    <a href="#profil" class="btn btn-warning">
+                        Pelajari
+                    </a>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 
