@@ -134,7 +134,7 @@
     <div class="row g-4">
         <div class="col-md-6 col-lg-4">
             <div class="card bg-dark text-light border-warning h-100">
-                <img src="img/rpl1.jpg"
+                <img src="img-rpl1.jpg.jpg"
                     class="card-img-top"
                     alt="Web Development">
 
@@ -157,7 +157,7 @@
 
         <div class="col-md-6 col-lg-4">
             <div class="card bg-dark text-light border-warning h-100">
-                <img src="img/rpl3.jpg"
+                <img src="img-rpl3.jpg"
                     class="card-img-top"
                     alt="UI UX Design">
 
@@ -168,6 +168,50 @@
 
                     <p class="card-text">
                         Belajar merancang tampilan website yang menarik dan mudah digunakan.
+                    </p>
+
+                    <a href="#profil" class="btn btn-warning">
+                        Pelajari
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="card bg-dark text-light border-warning h-100">
+                <img src="img-rpl4.jpg"
+                    class="card-img-top"
+                    alt="Database">
+
+                <div class="card-body">
+                    <h5 class="card-title text-warning">
+                        Database
+                    </h5>
+
+                    <p class="card-text">
+                        Belajar mengelola dan menyimpan data menggunakan database MySQL.
+                    </p>
+
+                    <a href="#profil" class="btn btn-warning">
+                        Pelajari
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="card bg-dark text-light border-warning h-100">
+                <img src="img/rpl5.jpg"
+                    class="card-img-top"
+                    alt="Web Design">
+
+                <div class="card-body">
+                    <h5 class="card-title text-warning">
+                        Web Design
+                    </h5>
+
+                    <p class="card-text">
+                        Belajar membuat desain website yang kreatif, rapi, dan responsif.
                     </p>
 
                     <a href="#profil" class="btn btn-warning">
