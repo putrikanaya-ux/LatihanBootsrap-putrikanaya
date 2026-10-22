@@ -262,7 +262,22 @@
 
     </div>
 
+<script>
 
+<footer class="bg-dark text-light text-center py-4">
+    <div class="container">
+        <h5 class="text-warning fw-bold">NAYA.</h5>
+
+        <p class="mb-1">
+            Exploring Creativity Through Technology
+        </p>
+
+        <p class="text-secondary mb-0">
+            © 2026 NAYA. Website Pribadi Siswa RPL.
+        </p>
+    </div>
+</footer>
+</script>
 </section>
 
     <h1>WELCOME TO NAYA'S WEBSITE</h1>
